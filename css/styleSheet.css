@@ -1,0 +1,870 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+/* NAVIGATION BAR AND FOOTER by Lasal*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
+
+
+/*Header*/
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-auto-rows: 100px;
+}
+
+.head>div {
+    background: linear-gradient(rgb(2, 47, 49), #06575B);
+    padding: 1em
+}
+
+.head>div:nth-child(odd) {
+    background: linear-gradient(rgb(2, 47, 49), #06575B);
+    padding: 1em;
+}
+
+#Header {
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+    margin-top: center;
+}
+
+#user_top {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+}
+
+#Login {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.header_box {
+    display: grid;
+    grid-template-rows: 70px;
+}
+
+#box1 {
+    margin-left: 80px;
+}
+
+#box2 {
+    margin-left: 55px
+}
+
+ul.nav {
+    outline: none;
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+    display: block;
+}
+
+ul.nav li {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+ul.nav2 {
+    float: right;
+    outline: none;
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+    display: block;
+}
+
+#navi3 {
+    background: #201f1f;
+    height: 61px;
+}
+
+#navi2 {
+    background: #201f1f;
+    height: 58px;
+}
+
+ul.nav2 li {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+#logo_timetable {
+    height: 135px;
+    width: auto;
+}
+
+ul.nav {
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+}
+
+ul.nav2 {
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+}
+
+ul.nav li {
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    display: block;
+    display: inline;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li {
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    display: block;
+    display: inline;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#bnUserHover {
+    color: #ffffff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    width: 150px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(212, 159, 11);
+    min-width: 130px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    outline: none;
+}
+
+#dropDownLogOut {
+    height: 12px;
+    width: 12px;
+    padding-right: 4px;
+}
+
+#bnUserHover :hover {
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    color: #00ff95;
+}
+
+.dropdown:hover .dropdown-content {
+    border-radius: 5px;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+ul.nav2 a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li a :active {
+    background-color: rgb(212, 159, 11);
+}
+
+ul.nav li:hover {
+    background-color: rgb(212, 159, 11);
+}
+
+ul.nav2 li:hover {
+    background-color: rgb(212, 159, 11);
+    border: none;
+    outline: none;
+}
+
+#navigation_bar {
+    display: grid;
+    grid-template-columns: 2.5fr 8fr 4fr;
+}
+
+#navi1 {
+    background: rgb(212, 159, 11);
+    padding: 20px;
+    height: 21px;
+    z-index: 10;
+}
+
+#Header_logo {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70PX;
+}
+
+#Header_logo:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
+
+/*Footer*/
+
+h3 {
+    font-weight: normal;
+}
+
+#Foot_copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #f1f1f1;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-top: 0px;
+}
+
+.foot>div {
+    background: rgb(230, 223, 223);
+    padding: 1em;
+}
+
+.foot>div:nth-child(odd) {
+    background: rgb(8, 73, 73)
+}
+
+
+/*Social media icons*/
+
+.iconF1 {
+    height: 20px;
+    width: auto;
+    display: inline;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.iconF {
+    height: 25px;
+    width: auto;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+#fb {
+    position: relative;
+    left: 20px
+}
+
+#yt {
+    position: relative;
+    left: 20px
+}
+
+#tw {
+    position: relative;
+    left: 20px
+}
+
+#in {
+    position: relative;
+    left: 20px
+}
+
+.linkF {
+    margin-top: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+/*Go Back Button*/
+
+#go-back-button {
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+
+/* HOME PAGE */
+
+.background-body {
+    background: url('../SenuraImages/test3.jpg')no-repeat center/cover;
+    padding: 0px 0px 100px 0px;
+    margin-top: 0;
+}
+
+#welcome {
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgb(8, 128, 134);
+}
+
+.wallpaper h1 {
+    margin-top: 36px;
+}
+
+#home-btn-1 {
+    background-image: url("../SenuraImages/loginUser.png");
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 50%;
+    background-size: 50px;
+    margin: 10px;
+}
+
+#home-btn-2 {
+    background-image: url("../SenuraImages/registerUser.png");
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 50%;
+    background-size: 33px;
+    margin: 10px;
+}
+
+#home-btn-1,
+#home-btn-2 {
+    padding: 0px;
+    padding-right: 40px;
+    text-align: right;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
+.home-btn {
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0px;
+    text-align: center;
+}
+
+.home-section-1 button {
+    background: none;
+    width: 200px;
+    height: 70px;
+    border: 3px solid rgb(8, 128, 134);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.home-section-1 button:focus {
+    outline: none;
+}
+
+.home-section-1 button:hover {
+    scale: 1.25;
+    transition: 0.1s;
+    border: solid 2px #f1f1f1;
+    background: rgb(8, 128, 134);
+    color: #ffffff;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+/*home-section-1*/
+
+.home-section-1 {
+    /* background: url('../Images/colorful-2560x1440-geometric-simple-multicolor-hd-5k-12880.png')no-repeat center/cover;*/
+    text-align: center;
+}
+
+.home-section-1 h1 {
+    color: black;
+    font-size: 100px;
+}
+
+
+/*home-section-2*/
+
+.home-grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f6fffb;
+    border-radius: 28px;
+}
+
+.home-grid img {
+    width: 700px;
+    border-radius: 4px;
+}
+
+.home-grid-box {
+    margin: auto;
+    padding: 20px;
+}
+
+.home-grid-box h3,
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.home-grid h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.home-grid p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Admin Page*/
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#tableAdminDetails {
+    font-family: 'Roboto', sans-serif;
+}
+
+.adminpage-grid {
+    margin: 15px 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 30px;
+}
+
+.adminpage-grid h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.admin-box {
+    padding: 20px;
+    background-color: #F4F4F4;
+    border: 3px solid #06575B;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px #999797;
+}
+
+.admin-box table {
+    margin: auto;
+    padding: 20px;
+}
+
+.admin-box td {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.admin-box li {
+    padding: 10px;
+    list-style: none;
+}
+
+.admin-box-1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.admin-box-2 {
+    grid-column: 2/4;
+}
+
+.admin-box-3 {
+    grid-column: 2/4;
+}
+
+.admin-box-4 {
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.adminpage-grid img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.admin-box-4 img {
+    margin: 10px 200px;
+    width: 70%;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.adminpage-grid button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    padding: 0;
+}
+
+.adminpage-grid button a {
+    color: #000000;
+}
+
+.admin-box button {
+    background: none;
+    border: 2px solid black;
+}
+
+.admin-box button:hover {
+    background: #06575B;
+    color: #ffffff;
+    border: #06575B;
+}
+
+.adminpage-grid #admin-dp {
+    margin: 20px 210px;
+}
+
+.timetable-header {
+    display: grid;
+    grid-template-columns: 20fr 2fr;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.t-box1 {
+    margin-left: 150px;
+}
+
+.admin-box-1 button {
+    margin-left: 250px;
+}
+
+.admin-timetable-button-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+
+
+/*Student Update Page */
+
+.page-topic {
+    border: rgb(100, 172, 154) 2px solid;
+    box-shadow: 5px 5px 8px rgb(176, 216, 181), 10px 10px 8px rgb(115, 177, 139), 15px 15px 8px rgb(66, 180, 117);
+    margin: 10px 600px 10px 600px;
+}
+
+#student-update-page button {
+    background: rgb(211, 155, 0);
+    border: rgb(211, 155, 0) 2px solid;
+    padding: 6px;
+}
+
+#student-update-page button:hover {
+    background: #06575B;
+    border: #06575B 2px solid;
+    color: #ffffff;
+}
+
+.manage-table-grid table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 30px;
+}
+
+.manage-table-grid td,
+th {
+    padding: 8px;
+    text-align: left;
+    /* border-bottom: 3px solid rgb(78, 78, 78); */
+}
+
+
+/*
+
+  .student_update-form-page{
+      text-align: center;
+      padding: 20px;
+
+
+  }
+
+
+  .student_update-form-page form{
+      background-color: #06575B;
+
+  }
+
+  .student_update-form-inputs{
+      padding: 10px;
+      border: #1f1d1d solid 2px;
+      margin: 10px;
+      border-radius: 28px;
+  }
+
+  .student_update-form{
+      margin: auto;
+      width:50%;
+      text-align: center;
+      background: url('../Images/Untitled-11.jpg')no-repeat center/cover;
+      border: 4px solid #06575B;
+      border-radius: 28px;
+      background: rgb(223, 223, 223);
+      box-shadow: 10px 10px 10px #999797;
+
+  }
+
+  */
+
+.studentupdateform {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 150px;
+    grid-gap: 20px;
+}
+
+.studentupdateform>div {
+    background-color: rgb(8, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(110, 107, 107, 0.548);
+    padding: 30px;
+}
+
+.studentupdateform>div:nth-child(odd) {
+    background-color: rgb(230, 223, 223);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(110, 107, 107, 0.548);
+    padding: 30px;
+}
+
+
+/*Form*/
+
+.inputBox {
+    border-radius: 28px;
+    height: 40px;
+    border: 1px solid #181515;
+    background-color: none;
+    margin: 10px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 3opx;
+}
+
+#fName {
+    width: 190px;
+}
+
+#mName {
+    width: 230px;
+}
+
+#lName {
+    width: 270px;
+}
+
+#age {
+    width: 100px;
+}
+
+#sID {
+    width: 200px;
+}
+
+#pw,
+#Rpw {
+    width: 270px;
+}
+
+#eMail {
+    width: 230px;
+}
+
+#addrL1 {
+    width: 150px;
+}
+
+#addrL2 {
+    width: 270px;
+}
+
+#addrL3 {
+    width: 330px;
+}
+
+#city,
+#Country {
+    width: 100px;
+}
+
+#pNum {
+    width: 230px;
+}
+
+#label_acceptConditions {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+#btnSubmit {
+    width: 120px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid #000000;
+    margin-left: 350px
+}
+
+#btnSubmit:hover {
+    background-color: #b99e01;
+}
+
+
+/*Lecturer Insertation Page*/
+
+#lecturerDetailsTable {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+.lecturer_insert-registration-form-page {
+    text-align: center;
+}
+
+.lecturer_insert-registration-form {
+    margin: 5px 500px;
+    border: 5px solid #06575B;
+    box-shadow: 10px 10px 10px #999797;
+    background: #06575B;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.manage-table-grid tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#Lecture-Insert-Page-Grid table td {
+    padding: 15px;
+}
+
+.lecturer_insert-registration-form-inputs {
+    padding: 10px;
+    border: #1f1d1d solid 2px;
+    margin: 10px;
+    border-radius: 28px;
+}
+
+
+/*Lecturer update page*/
+
+a {
+    text-decoration: none;
+}
+
+
+/* Lecturer-Update-Form-Page */
+
+.Lecturerupdateform form {
+    background-color: #06575B;
+    text-align: center;
+    margin: 20px 500px;
+    color: #f7f7f7;
+    padding: 50px;
+    box-shadow: 10px 10px 10px #999797;
+}
+
+.lecturer_update-form-inputs {
+    padding: 10px;
+    border: #1f1d1d solid 2px;
+    margin: 10px;
+    color: #000000;
+    border-radius: 28px;
+}
+
+#updateform-button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#updateform-button:hover {
+    background-color: #b99e01;
+    color: #ffffff;
+}

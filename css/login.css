@@ -1,0 +1,461 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto&display=swap');
+body,
+header,
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header*/
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-auto-rows: 100px;
+}
+
+.head>div {
+    background: linear-gradient(rgb(2, 47, 49), #06575B);
+    padding: 1em
+}
+
+.head>div:nth-child(odd) {
+    background: linear-gradient(rgb(2, 47, 49), #06575B);
+    padding: 1em;
+}
+
+#Header {
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+    margin-top: center;
+}
+
+#user_top {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+}
+
+#Login {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.header_box {
+    display: grid;
+    grid-template-rows: 70px;
+}
+
+#box1 {
+    margin-left: 80px;
+}
+
+#box2 {
+    margin-left: 55px
+}
+
+ul.nav {
+    outline: none;
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+    display: block;
+}
+
+ul.nav li {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+ul.nav2 {
+    float: right;
+    outline: none;
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+    display: block;
+}
+
+#navi3 {
+    background: #201f1f;
+    height: 58px;
+}
+
+#navi2 {
+    background: #201f1f;
+    height: 58px;
+}
+
+ul.nav2 li {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+#logo_timetable {
+    height: 135px;
+    width: auto;
+}
+
+ul.nav {
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+}
+
+ul.nav2 {
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+}
+
+ul.nav li {
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    display: block;
+    display: inline;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li {
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    display: block;
+    display: inline;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#bnUserHover {
+    color: #ffffff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    width: 150px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(212, 159, 11);
+    min-width: 130px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    outline: none;
+}
+
+#dropDownLogOut {
+    height: 12px;
+    width: 12px;
+    padding-right: 4px;
+}
+
+#bnUserHover :hover {
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    color: #00ff95;
+}
+
+.dropdown:hover .dropdown-content {
+    border-radius: 5px;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+ul.nav2 a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li a :active {
+    background-color: rgb(212, 159, 11);
+}
+
+ul.nav li:hover {
+    background-color: rgb(212, 159, 11);
+}
+
+ul.nav2 li:hover {
+    background-color: rgb(212, 159, 11);
+    border: none;
+    outline: none;
+}
+
+#navigation_bar {
+    display: grid;
+    grid-template-columns: 2.5fr 8fr 4fr;
+}
+
+#navi1 {
+    background: rgb(212, 159, 11);
+    padding: 20px;
+    height: 18px;
+    z-index: 10;
+}
+
+#Header_logo {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70PX;
+}
+
+#Header_logo:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
+
+/*------------------------------------------------*/
+
+
+/*Body*/
+
+.bodLogin {
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 150px;
+    grid-gap: 20px;
+}
+
+.bodLogin>div {
+    background-color: rgb(8, 73, 73);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(110, 107, 107, 0.548);
+}
+
+.bodLogin>div:nth-child(odd) {
+    background-color: rgb(230, 223, 223);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(110, 107, 107, 0.548);
+    padding: 50px
+}
+
+#logoBody {
+    display: block;
+    height: 500px;
+    margin: auto;
+}
+
+
+/*Form*/
+
+.inputBox {
+    align-content: center;
+    border-radius: 28px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    background-color: aliceblue;
+    margin: 10px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 3opx;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    width: 200px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid #000000;
+    margin-left: 150px
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.formTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#checkBoxLabel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+#rememberMe {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    height: 15px;
+    width: 15px;
+}
+
+
+/*------------------------------------------------*/
+
+
+/*Footer*/
+
+.footer {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    display: grid;
+    row-gap: 1em;
+    text-align: left;
+    grid-template-columns: repeat(3, 0.5fr 2.5fr 1fr) repeat(4, 0.5fr);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#Foot_copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #f1f1f1;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-top: 50px;
+}
+
+.foot>div {
+    background: rgb(230, 223, 223);
+    padding: 1em;
+}
+
+.foot>div:nth-child(odd) {
+    background: rgb(8, 73, 73);
+}
+
+
+/*Social media icons*/
+
+.iconF1 {
+    height: 20px;
+    width: auto;
+    display: inline;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.iconF {
+    height: 25px;
+    width: auto;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+#fb {
+    position: relative;
+    left: 20px
+}
+
+#yt {
+    position: relative;
+    left: 20px
+}
+
+#tw {
+    position: relative;
+    left: 20px
+}
+
+#in {
+    position: relative;
+    left: 20px
+}
+
+.linkF {
+    margin-top: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+/*------------------------------------------------*/

@@ -1,0 +1,1373 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto&display=swap');
+body,
+header,
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header*/
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-auto-rows: 100px;
+}
+
+.head>div {
+    background: linear-gradient(rgb(2, 47, 49), #06575B);
+    padding: 1em
+}
+
+.head>div:nth-child(odd) {
+    background: linear-gradient(rgb(2, 47, 49), #06575B);
+    padding: 1em;
+}
+
+#Header {
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+    margin-top: center;
+}
+
+#user_top {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+}
+
+#Login {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.header_box {
+    display: grid;
+    grid-template-rows: 70px;
+}
+
+#box1 {
+    margin-left: 80px;
+}
+
+#box2 {
+    margin-left: 55px
+}
+
+ul.nav {
+    outline: none;
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+    display: block;
+}
+
+ul.nav li {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+ul.nav2 {
+    float: right;
+    outline: none;
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+    display: block;
+}
+
+#navi3 {
+    background: #201f1f;
+    height: 59px;
+}
+
+#navi2 {
+    background: #201f1f;
+    height: 59px;
+}
+
+ul.nav2 li {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+#logo_timetable {
+    height: 135px;
+    width: auto;
+}
+
+ul.nav {
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+}
+
+ul.nav2 {
+    margin-top: 0px;
+    list-style-type: none;
+    background: #201f1f;
+    padding: 20px 0px;
+}
+
+ul.nav li {
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    display: block;
+    display: inline;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li {
+    display: inline;
+    color: #f1f1f1;
+    padding: 20px 20px;
+    display: block;
+    display: inline;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#bnUserHover {
+    color: #ffffff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    width: 150px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(212, 159, 11);
+    min-width: 130px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    outline: none;
+}
+
+#dropDownLogOut {
+    height: 12px;
+    width: 12px;
+    padding-right: 4px;
+}
+
+#bnUserHover :hover {
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    color: #00ff95;
+}
+
+.dropdown:hover .dropdown-content {
+    border-radius: 5px;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+ul.nav2 a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li a :active {
+    background-color: rgb(212, 159, 11);
+}
+
+ul.nav li:hover {
+    background-color: rgb(212, 159, 11);
+}
+
+ul.nav2 li:hover {
+    background-color: rgb(212, 159, 11);
+    border: none;
+    outline: none;
+}
+
+#navigation_bar {
+    display: grid;
+    grid-template-columns: 2.5fr 8fr 4fr;
+}
+
+#navi1 {
+    background: rgb(212, 159, 11);
+    padding: 20px;
+    height: 19px;
+    z-index: 10;
+}
+
+#Header_logo {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70PX;
+}
+
+#Header_logo:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
+
+/*Edit User Student*/
+
+.EditUserStu {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(250, 255, 252);
+    border-radius: 28px;
+    border: 1px solid #a5a4a46e;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(240, 240, 240, 0.548);
+}
+
+.EditUserStu_titleForm {
+    grid-column: span 3;
+}
+
+.editUserStu_button {
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 28px;
+    background-color: #00b167;
+    border: 2px solid #00b167;
+    color: #ffffff;
+}
+
+.editUserStu_button:hover {
+    cursor: pointer;
+    border: 2px solid #00b167;
+    color: #00b167;
+    background-color: #ffffff;
+}
+
+.editUserStu_buttonDel {
+    outline: none;
+    margin: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    width: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 28px;
+    background-color: #ff1515;
+    border: 2px solid #ff1515;
+    color: #ffffff;
+}
+
+.editUserStu_buttonDel:hover {
+    cursor: pointer;
+    border: 2px solid #ff1515;
+    color: #ff1515;
+    background-color: #ffffff;
+}
+
+#EditUserStu_title {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #00b167;
+}
+
+.EditUserStu_fieldSet {
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 200px;
+    padding-right: 0px;
+    height: 30px;
+    border: 1px solid #a5a4a46e;
+}
+
+.EditUserStu_fieldSet:hover {
+    margin-left: 30px;
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+    border: solid 2.2px;
+    border-color: #00b167;
+    transition: 0.5s;
+}
+
+.EditUserStu_delete {
+    height: 11px;
+    width: auto;
+    align-content: right;
+    margin: 0px;
+    vertical-align: center;
+    display: none;
+}
+
+.EditUserStu_delete:hover {
+    cursor: pointer;
+    height: 11px;
+    width: auto;
+    align-content: right;
+    margin: 0px;
+    vertical-align: center;
+}
+
+.EditUserStu_input {
+    outline: none;
+    border: 0px;
+    background: none;
+    padding-left: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+}
+
+.legend_title {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #474747;
+}
+
+.changeProfile {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 25px;
+    border: 4px solid #00b167;
+}
+
+.changeProfile:hover {
+    scale: 2;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+#changePro:hover {
+    scale: 1.25;
+    transition: 0.5s;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 140%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    display: none;
+}
+
+.bg-modalDel {
+    width: 100%;
+    height: 140%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    display: none;
+}
+
+.modal-content {
+    margin-top: 225px;
+    height: 200px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: fixed;
+}
+
+#EditUserStu_titleUpdate {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #00b167;
+}
+
+#EditUserStu_titleDel {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #ff1515;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 28px;
+    transform: rotate(45deg);
+    margin-top: 10px;
+    text-decoration: bold;
+}
+
+.close:hover {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#updatePicAni {
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#deletePicUser {
+    height: 90px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.boxUpdatePic {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5%;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateUserStu_button {
+    display: inline-block;
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 28px;
+    background-color: #ff0055;
+    border: 0px;
+    color: #ffffff;
+}
+
+.updateUserStu_button:hover {
+    cursor: pointer;
+    border: 2px solid #ff0055;
+    color: #ff0055;
+    background-color: #ffffff;
+}
+
+
+/**Change Password*/
+
+.bg-modalPa {
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    display: none;
+}
+
+.modal-contentPa {
+    margin-top: 100px;
+    height: 420px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxUpdatePicPa {
+    margin: 0%;
+    display: grid;
+    grid-template-rows: 0.75fr 0.2fr 0.25fr 0.5fr;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.passwordChg_button {
+    outline: none;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    margin-left: 25%;
+    border-radius: 28px;
+    background-color: #00b167;
+    border: 2px solid #00b167;
+    color: #ffffff;
+}
+
+.passwordChg_button:hover {
+    cursor: pointer;
+    border: 2px solid #00b167;
+    color: #00b167;
+    background-color: #ffffff;
+}
+
+#updatePicPa {
+    margin-left: 20%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #00b167;
+}
+
+.PasswordChg_inputBox {
+    align-content: center;
+    border-radius: 28px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid #00b167;
+    background-color: aliceblue;
+    margin-top: 10px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#EditUserStu_titleUChgPa {
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #00b167;
+}
+
+#EditUserStu_passwordMatch {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+/*Contact Page Body CSS*/
+
+#contactTable {
+    border: 2px solid black;
+    display: table;
+}
+
+.Contact_contact {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 350px;
+    grid-gap: 20px;
+}
+
+.Contact_formC,
+.Contact_details,
+.Contact_formRate {
+    background-color: rgb(247, 255, 255);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(201, 201, 201, 0.548);
+}
+
+.Contact_contactTable {
+    margin: 40px;
+    padding: 20px;
+}
+
+.Contact_rowContact {
+    margin: 10px;
+    align-content: center;
+    padding: 10px;
+}
+
+.Contact_textC {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.Contact_formC,
+.Contact_formRate {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 7.5%;
+    padding-bottom: 0px;
+}
+
+.Contact_inputBox {
+    align-content: center;
+    border-radius: 28px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid #084949;
+    background-color: aliceblue;
+    margin: 10px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.Contact_formC #textArea_Message {
+    resize: vertical;
+    max-block-size: 135px;
+    min-block-size: 120px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+.Contact_formRate #textArea_Feedback {
+    resize: vertical;
+    block-size: 100px;
+    max-block-size: 100px;
+    padding: 15px;
+}
+
+::placeholder {
+    color: #7c7c7c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.Contact_formTitle {
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #084949;
+}
+
+.Contact_wrongInput {
+    outline: none;
+    align-content: center;
+    border-radius: 28px;
+    height: 40px;
+    width: 300px;
+    border: 1.5px solid #ff0000;
+    background-color: aliceblue;
+    margin: 10px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    animation: shake 0.1s;
+    animation-iteration-count: 5;
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+}
+
+.error {
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #ff0000;
+    padding: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.Contact_bnSubmit {
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 28px;
+    background-color: #084949;
+    border: 2px solid #084949;
+    color: #ffffff;
+}
+
+.Contact_bnSubmit:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #084949;
+    background-color: #ffffff;
+}
+
+.Contact_details {
+    max-height: 900px;
+    grid-row: span 2;
+}
+
+.Contact_formC {
+    max-height: 500px;
+}
+
+.Contact_formRate {
+    max-height: 350px;
+}
+
+.footer {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    display: grid;
+    row-gap: 1em;
+    text-align: left;
+    grid-template-columns: repeat(3, 0.5fr 2.5fr 1fr) repeat(4, 0.5fr);
+}
+
+.allrights {
+    grid-column: span 16;
+}
+
+.iconF {
+    height: 20px;
+    width: auto;
+}
+
+.linkF {
+    margin-top: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+    color: #005fee;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #005fee;
+}
+
+
+/*User Profile | Lecturer*/
+
+#UserStu_Notice {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #474747;
+    margin-left: 50px;
+}
+
+.UserLec_DetailsBackground {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 50px;
+    grid-template-rows: 300px 500px;
+    grid-template-columns: 1.2fr 2fr;
+    grid-gap: 20px;
+    background: rgba(233, 233, 233, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.UserLec_Details {
+    grid-row: span 2;
+    max-height: auto;
+    display: grid;
+    grid-template-rows: 2fr 4fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.UserLec_Notice {
+    max-height: 300px;
+}
+
+.UserLec_Timetable {
+    max-height: 5000px;
+}
+
+.UserLec_Timetable,
+.UserLec_Notice,
+.UserLec_Details {
+    background-color: rgb(247, 255, 255);
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgba(201, 201, 201, 0.548);
+}
+
+.UserLec_UserImage #user {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    border: 3px solid #06575B;
+}
+
+.UserLec_UserImage {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Notice_wrongInput {
+    align-content: center;
+    border-radius: 28px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ff0000;
+    box-shadow: 1px 1px 1px rgb(255, 47, 47);
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 30px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    animation: shake 0.1s;
+    animation-iteration-count: 5;
+    padding-left: 10px;
+}
+
+.UserL_userDescription {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #6e6e6e;
+    font-size: 18px;
+}
+
+.UserLec_UserDetails {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 5px;
+    margin-left: 75px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #06575B;
+    font-size: 20px;
+}
+
+.UserLec_EditButton {
+    margin-left: 75px;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+}
+
+.UserLec_editButton {
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 5px;
+    min-width: 100px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 28px;
+    background-color: #06575B;
+    border: 2px solid #06575B;
+    color: #ffffff;
+}
+
+.UserLec_editButton:hover {
+    cursor: pointer;
+    border: 2px solid #06575B;
+    color: #06575B;
+    background-color: #ffffff;
+}
+
+#UserLec_NocticeTitle {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #06575B;
+    margin-left: 30px;
+}
+
+.UserLec_InputBox {
+    align-content: center;
+    border-radius: 28px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #06575B;
+    box-shadow: 1px 1px 1px rgb(78, 178, 255);
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 30px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.UserLec_NoticeD {
+    resize: vertical;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    margin-top: 20px;
+    border-radius: 28px;
+    width: 300px;
+    border: 1px solid #06575B;
+    box-shadow: 1px 1px 1px rgb(78, 178, 255);
+    background-color: aliceblue;
+    margin-left: 30px;
+    outline: none;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.UserLec_NoticeForm {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-template-columns: 1.1fr 0.9fr;
+    grid-gap: 0px;
+}
+
+.UserLec_Radio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #06575B;
+    padding-left: 40px;
+    display: block;
+    line-height: 4px;
+    margin-top: 5px;
+}
+
+#UserLec_postBtn:disabled {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 28px;
+    background-color: rgb(56, 56, 56);
+    border: 0px;
+    color: #ffffff;
+}
+
+#UserLec_postBtn {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 28px;
+    background-color: #06575B;
+    border: 0px;
+    color: #ffffff;
+}
+
+#UseLec_checkBox {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-left: 40px;
+    color: #06575B;
+    margin-bottom: 0px;
+}
+
+#UserLec_postBtn:enabled:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid #06575B;
+    color: #06575B;
+    background-color: #ffffff;
+}
+
+#dataTabl {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.UserLec_bnDownload {
+    outline: none;
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 10px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 28px;
+    background-color: #06575B;
+    border: 0px;
+    color: #ffffff;
+}
+
+.UserLec_bnDownload:hover {
+    cursor: pointer;
+    border: 2px solid #06575B;
+    color: #06575B;
+    background-color: #ffffff;
+}
+
+#UseLec_timetable {
+    width: 500px;
+    height: auto;
+    margin-left: 60px;
+}
+
+
+/*UserLecturer Edit Unsuccess*/
+
+#EditLec_sucessMsgPara {
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #084949;
+}
+
+
+/*contactSucess*/
+
+.contactSuccessMsg {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 140px;
+    grid-template-columns: 1fr 0.5fr 2fr;
+    grid-gap: 20px;
+    background: rgba(187, 255, 252, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 5px 10px rgba(201, 201, 201, 0.548);
+}
+
+#msgSuccessImg {
+    height: 250px;
+    margin-left: 50px;
+    width: auto;
+    opacity: 1;
+}
+
+#msgSuccessImg:hover {
+    scale: 1.05;
+    transition: 0.5s;
+    opacity: 0.75;
+}
+
+#sucessMsgPara {
+    font-size: 20px;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: #084949;
+}
+
+#verify {
+    height: 80px;
+    margin: 50px;
+    margin-right: 0;
+    width: auto;
+}
+
+.bnBack {
+    margin: 20px;
+    padding: 15px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    border-radius: 0px;
+    background-color: #06575B;
+    border: 0px;
+    color: #ffffff;
+}
+
+.bnBack:hover {
+    cursor: pointer;
+    border: 2px solid #06575B;
+    color: #06575B;
+    background-color: #ffffff;
+}
+
+#Contact_FAQ_img {
+    height: 150px;
+    margin: 30px
+}
+
+.Contact_FAQ {
+    display: grid;
+    max-height: auto;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 1fr;
+    background: rgb(247, 255, 255);
+    border-radius: 20px;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    box-shadow: 10px 5px 10px rgba(201, 201, 201, 0.548);
+}
+
+.Contact_faqTitle {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #084949;
+}
+
+.Contact_faq {
+    margin-top: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+}
+
+#Contact_readMore {
+    display: none;
+}
+
+#Contact_bnFAQ {
+    outline: none;
+    margin: 15px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    height: auto;
+    border-radius: 40px;
+    background-color: #06575B;
+    border: solid 1px #06575B;
+    color: #ffffff;
+}
+
+#Contact_bnFAQ:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #06575B;
+}
+
+.Contact_many {
+    display: grid;
+    max-height: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    grid-gap: 20px;
+    background: rgb(247, 255, 255);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 10px 5px 10px rgba(201, 201, 201, 0.548);
+}
+
+#img_centers {
+    height: 250px;
+    width: auto;
+}
+
+#Contact_details_centres_des {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    color: #06575B;
+}
+
+.Contact_many_bn {
+    outline: none;
+    border: none;
+    border-bottom: solid 3px #06575B;
+    margin: 0px;
+    padding: 15px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    vertical-align: center;
+    background: none;
+    color: #06575B;
+}
+
+.Contact_many_bn:hover {
+    border: none;
+    border-bottom: solid 3px rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 0px;
+    padding: 15px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: auto;
+    vertical-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Footer*/
+
+footer {
+    position: absolute;
+    width: 100%;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#Foot_copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #f1f1f1;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 5.5fr 1fr;
+    margin-top: 50px;
+}
+
+.foot>div {
+    background: rgb(230, 223, 223);
+    padding: 1em;
+}
+
+.foot>div:nth-child(odd) {
+    background: rgb(8, 73, 73);
+}
+
+
+/*Social media icons*/
+
+.iconF1 {
+    height: 20px;
+    width: auto;
+    display: inline;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.iconF {
+    height: 25px;
+    width: auto;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+#fb {
+    position: relative;
+    left: 20px
+}
+
+#yt {
+    position: relative;
+    left: 20px
+}
+
+#tw {
+    position: relative;
+    left: 20px
+}
+
+#in {
+    position: relative;
+    left: 20px
+}
+
+.linkF {
+    margin-top: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
